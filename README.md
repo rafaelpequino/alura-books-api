@@ -1,5 +1,13 @@
-// npm init -> inicia o projeto
+# Utilização do Express
 
-// npm install express -> instala a biblioteca express
+### Trata-se de um framework que cria o servidor e fornece as ferramentas necessárias para aplicações backend
 
-// node app.js -> inicia o servidor
+npm init -> inicia o projeto
+
+npm install express -> instala a biblioteca express
+
+node app.js -> inicia o servidor
+
+npm install nodemon -> biblioteca para hot reload
+
+nodemon app.js -> inicia o servidor com o nodemon
