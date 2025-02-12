@@ -1,15 +1,11 @@
-// importa o express
 const express = require("express");
+const rotaLivro = require("./routes/livro")
 
-// inicia o express
 const app = express();
 
-// define a porta
-const port = 8000
+app.use('/livros', rotaLivro)
 
-app.get('/', (req, res) => {
-    res.send("Hello world")
-})
+const port = 8000
 
 app.listen(port, () => {
     console.log(`Escutando a porta ${port}`)
