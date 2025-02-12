@@ -11,3 +11,9 @@ node app.js -> inicia o servidor
 npm install nodemon -> biblioteca para hot reload
 
 nodemon app.js -> inicia o servidor com o nodemon
+
+---
+
+## Rotas
+
+#### Ligação entre um método HTTP, uma URL e uma função
