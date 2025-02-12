@@ -1,8 +1,8 @@
-// inicia o projeto
-npm init
+// ↓ inicia o projeto
+// npm init
 
-// instala a biblioteca express
-npm install express
+// ↓ instala a biblioteca express
+// npm install express
 
-// iniciar o servidor
-node app.js
+// ↓ inicia o servidor
+// node app.js
