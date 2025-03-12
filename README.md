@@ -12,6 +12,15 @@ npm install nodemon -> biblioteca para hot reload
 
 nodemon app.js -> inicia o servidor com o nodemon
 
+
+---
+
+## CORS
+
+npm install cors -> Instala biblioteca CORS, para permitir o acesso a API
+
+app.use(cors({origin: "*"})) -> permite acesso liberado para qualquer url
+
 ---
 
 ## Rotas
