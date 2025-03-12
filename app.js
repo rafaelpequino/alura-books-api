@@ -3,6 +3,7 @@ const rotaLivro = require("./routes/livro")
 
 const app = express();
 app.use(express.json())
+app.use(cors({origin: "*"}))
 
 app.use('/livros', rotaLivro)
 
