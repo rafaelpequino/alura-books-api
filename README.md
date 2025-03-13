@@ -26,3 +26,9 @@ app.use(cors({origin: "*"})) -> permite acesso liberado para qualquer url
 ## Rotas
 
 #### Ligação entre um método HTTP, uma URL e uma função
+
+---
+
+## Termos
+
+require('fs') -> leitura e manipulação de arquivos json
