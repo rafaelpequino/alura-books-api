@@ -16,7 +16,7 @@ function insereFavorito(idNovoFavorito) {
     const livrosAtuais = JSON.parse(fs.readFileSync("livros.json"))
     const livrosFavoritos = JSON.parse(fs.readFileSync("favoritos.json"))
 
-    const novoFavorito = livrosAtuais.filter( livro => livro.id === idNovoFavorito )
+    const novoFavorito = livrosAtuais.find( livro => livro.id === idNovoFavorito )
 
     const novaListaDeFavoritos = [...livrosFavoritos, novoFavorito]
 
