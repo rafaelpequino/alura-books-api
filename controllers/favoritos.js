@@ -13,7 +13,7 @@ function getFavoritos(req, res) {
 function postFavorito(req, res) {
     try {
         const id = req.params.id
-        insereFavorito(livroNovo)
+        insereFavorito(id)
         res.status(201)
         res.send("Livro inserido com sucesso")
     
